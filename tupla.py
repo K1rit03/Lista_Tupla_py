@@ -24,5 +24,28 @@ print(max(tuple))
 print(min(tuple))
 print(sum(tuple))
 print(len(tuple))
+
 print(tuple.count(6))
 print(tuple.index(6))
+
+ufs = ('AC','SP','RJ')
+
+coordenadas = [(23.555,.108880), (45.4989, 34.989)]
+print(coordenadas[0][1])
+
+coordenadas[0] = 3
+print(coordenadas)
+
+tupla = ([3, 5, 6], [1, 2, 3])
+tupla[0][0] = 999
+print(tupla)
+
+# lista - converte uma tupla para lista
+tupla = (4, 5, 6)
+lista = list(tupla)
+print(lista)
+
+#tuple - converte uma lista para tupla
+lista = [4, 7, 10]
+tupla = tuple(lista)
+print(tupla)
